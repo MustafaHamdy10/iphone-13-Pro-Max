@@ -1,0 +1,88 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.container {
+    background-color:black;
+    min-height: 100vh;
+    width:100%;
+    overflow: hidden;
+    position: relative;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    padding: 20px 0px;
+}
+.logo{
+    width: 70px;
+}
+ul li{
+    display: inline-block;
+    margin: 10px 20px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin:0px 10px;
+    transition: 0.5s;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 300px;
+}
+.content .text{
+    width: 40%;
+    color: white;
+    margin-bottom: 50px;
+}
+.content .text h1{
+    font-size: 40px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.content .text p{
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.container .content .text a{
+    text-decoration: none;
+    background-color:white;
+    color:black;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.content .image{
+    width: 30%;
+}
+.content .image img{
+    width: 300px;
+}
+.icons{
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.icons img{
+    width: 80px;
+    transition: 0.5s;
+}
+.icons img:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
